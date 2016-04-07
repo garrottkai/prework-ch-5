@@ -1,4 +1,10 @@
 <?php
+
+$object = new User;
+$object->password = "secret";
+
+echo $object->get_password();
+
 	class User
 	{
 		public $name, $password;
@@ -9,9 +15,6 @@
 		}
 
 }
-$object = new User;
-$object->password;
 
-echo $object->get_password();
 
 ?>
