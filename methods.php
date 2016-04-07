@@ -7,5 +7,11 @@
 		{
 			return $this->password;
 		}
+
 }
-?>e
+$object = new User;
+$object->password;
+
+echo $object->get_password();
+
+?>
