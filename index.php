@@ -9,6 +9,7 @@
 
 	class User
 	{
+
 		public $name;
 	}
 ?>
