@@ -10,7 +10,7 @@
 	{
 		public $name, $password;
 
-		function save_user();
+		function save_user()
 		{
 		echo 'Save User code here';
 		}
@@ -20,7 +20,7 @@ class Subscriber extends User
 {
 	public $phone, $email;
 
-	function display();
+	function display()
 	{
 	echo "Name: " 	. $this->name		. "<br>";
 	echo "Pass: " 	. $this->password	. "<br>";
