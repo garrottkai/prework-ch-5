@@ -8,4 +8,4 @@ class User
 		echo "Please enter your password";
 	}
 }
-?>Pr
+?>
